@@ -1,0 +1,40 @@
+/*Smarphones and Tablets*/
+
+@media (max-width: 767px) {
+  .carousel {
+    display: none;
+  }
+  .subscribe form input {
+    margin-bottom: 20px;
+  }
+  .footer .work img {
+    width: 221px;
+    height: 120px;
+    margin-bottom: 18px;
+    margin-right: -11px;
+  }
+  .testimonials {
+    display: none;
+  }
+}
+
+/*Small screen*/
+
+@media (min-width: 768px) {
+  .footer .work img {
+    width: 168px;
+    height: 120px;
+    margin-bottom: 10px;
+    margin-right: 5px;
+  }
+}
+
+/*Medium screen*/
+
+@media (min-width: 992px) {
+}
+
+/*Large screen*/
+
+@media (min-width: 1200px) {
+}
