@@ -265,6 +265,7 @@ html, body {
   line-height: 110px;
   border-bottom: 1px solid #fff;
   cursor: pointer;
+  transition: .5s all 
 }
 .tabs-section .list-unstyled li.selected,
 .tabs-section .list-unstyled li:hover {
@@ -293,11 +294,11 @@ html, body {
 /*Start sublist*/
 .sublist .sub-img {
   box-shadow: 4px 6px 29px 1px black;
-  margin-top: 60px;
   width: 330px;
+  margin-bottom: 20px;
 }
 .sublist h3 {
-  margin-top: 0;
+  margin-top: 50px;
   font-weight: bold;
 }
 .head-letter:after {
@@ -333,9 +334,10 @@ html, body {
 .standard .sub-img {
   box-shadow: 4px 6px 29px 1px black;
   width: 330px;
+  margin-top: 40px;
 }
 .standard h3 {
-  margin-top: 0;
+  margin-bottom: 30px;
   font-weight: bold;
   margin-top: 30px;
 }
@@ -629,10 +631,6 @@ html, body {
     margin-bottom: 20px;
   }
   .tabs-section img {
-    display: none;
-  }
-  .sublist .sub-img,
-  .standard .sub-img {
     display: none;
   }
   .price-tables {
